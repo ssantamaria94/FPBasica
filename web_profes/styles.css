@@ -1,0 +1,72 @@
+body{
+	margin: 0px;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5c5655;
+}
+
+.logo {
+    flex-shrink: 0; /* Evita que el logo se estire */
+    margin-right: 10px; /* Puedes ajustar este valor según tu diseño */
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+.titulo{
+	flex-grow: 1; /* Esto hace que el título ocupe todo el espacio disponible */
+    text-align: center; /* Esto centra el texto horizontalmente */
+    font-family: courier;
+    color: white;
+}
+
+.subtitulo{
+	flex-grow: 1; /* Esto hace que el título ocupe todo el espacio disponible */
+    text-align: center; /* Esto centra el texto horizontalmente */
+    font-family: courier;
+    color: grey;
+    font-weight: bold;
+}
+
+.profesores{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.profesor{
+	background-color: #e9f0ea;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	text-align: center;
+  	border-radius: 10%;
+  	padding: 10px;
+  	margin: 10px;
+
+}
+
+.profesor img{
+	padding: 2%;
+    width: 200px;
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10%;
+    padding: 5%;
+}
+
+.nombre{
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+.asignatura{
+	font-style: italic;
+	font-size: 14px;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #201c1c;
+}

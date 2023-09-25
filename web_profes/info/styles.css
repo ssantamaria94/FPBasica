@@ -1,0 +1,89 @@
+body{
+	margin: 0px;
+	background-color: #e8e4e3;
+}
+
+.cuerpo{
+	display: flex;
+	justify-content: center;
+}
+
+.contenido{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 5%;
+	background-color: #ffff7a;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5c5655;
+}
+
+.logo {
+    flex-shrink: 0; /* Evita que el logo se estire */
+    margin-right: 10px; /* Puedes ajustar este valor según tu diseño */
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+.titulo{
+	flex-grow: 1; /* Esto hace que el título ocupe todo el espacio disponible */
+    text-align: center; /* Esto centra el texto horizontalmente */
+    font-family: courier;
+    color: white;
+}
+
+.subtitulo{
+	flex-grow: 1; /* Esto hace que el título ocupe todo el espacio disponible */
+    text-align: center; /* Esto centra el texto horizontalmente */
+    font-family: courier;
+    color: black;
+}
+
+.title{
+	font-weight: bolder;
+	font-family: courier;
+}
+
+.info{
+	font-family: courier;
+	margin: 10px;
+	font-size: 100%;
+}
+
+.multimedia img{
+    width: 200px;
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10%;
+    padding: 5%;
+}
+
+.informacion{
+	margin-left: 30px;
+}
+
+.contactar{
+	display: flex;
+	justify-content: center;
+}
+
+.goback{
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.goback button {
+  width: 120px;
+  color: white;
+  border-color: white;
+  background-color: #5c5655;
+  border-radius: 10px;
+  height: 26px;
+
+}
